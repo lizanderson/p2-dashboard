@@ -4,6 +4,20 @@
 	background: orange;
 }
 
+h2 {
+	font: 'Quantico', sans-serif;
+	color: blue;
+}
+
+h3 {
+	font: 'Chivo', sans-serif;
+	color: red;
+}
+
+
+
+
+
 /*Balance*/
 
 .balance h1	{

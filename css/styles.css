@@ -1,26 +1,56 @@
 
 /*Profile*/
 .profile {
-	background: orange;
+	background: url("../img/cutcube.png");
+}
+
+h1 {
+	text-align: center;
+	color: #722;
 }
 
 h2 {
-	font: 'Quantico', sans-serif;
-	color: blue;
+	text-align: center;
+	font-family: 'Quantico', sans-serif;
+	padding: 10px;
+	color: #722;
 }
 
 h3 {
-	font: 'Chivo', sans-serif;
-	color: red;
+	font-family: 'Chivo', sans-serif;
+	color: #722;
 }
 
+p {
+	text-align: center;
+	color: #722;
+	font-size: 1.2em;
+}
+
+a:link,
+a:visited {
+	color: #234588;
+	font-size: 1.25em;
+}
+
+a:hover,
+a:active {
+	background: #000;
+}
 
 
 
 
 /*Balance*/
+thead {
+	font-family: 'Quantico', sans-serif;
+}
 
-.balance h1	{
-	color: orange;
-	font-size: 3em;
+tbody {
+	text-align: center;
+}
+
+.balance {
+	color: #234588;
+	font-size: 1.5em;
 }

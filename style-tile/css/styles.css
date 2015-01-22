@@ -1,8 +1,31 @@
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+h2,
+h4 {
+	font-family: 'Quantico', sans-serif;
 }
 
+h3 {
+	font-family: 'Chivo', sans-serif;
+}
+
+a {
+	color: #722;
+	text-decoration: none;
+}
+
+p {
+	font: sans-serif, black;
+}
+
+a:link,
+a:visited {
+	color: #722;
+}
+
+a:hover,
+a:active {
+	background: #234588;
+}
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
@@ -20,21 +43,48 @@ section {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+	height: 200px;
+	width: 200px;
 }
 
 /*Style Tile for Scott Williams*/
 .color-1 {
-	background: orange;
+	background: #722;
 }
 
 .color-2 {
-	background: green;
+	background: #234588;
 }
 
 .color-3 {
-	background: blue;
+	background: #000;
+}
+
+.imagery-1 {
+	background: url("../img/basketball.jpg");
+	background-size: 200px;
+}
+
+.imagery-2 {
+	background: url("../img/football.png") no-repeat;
+	background-size: 200px;
+}
+
+.imagery-3 {
+	background: url("../img/gamer.jpg");
+	background-size: 200px;
+}
+
+.pattern-1 {
+	background: url("../img/cutcube.png");
+}
+
+.pattern-2 {
+	background: url("../img/mirrored_squares.png");
+}
+
+.pattern-3 {
+	background: url("../img/triangles.png");
 }
 
 /* Show Grid */

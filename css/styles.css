@@ -38,19 +38,23 @@ a:active {
 	background: #000;
 }
 
-
-
-
 /*Balance*/
-thead {
-	font-family: 'Quantico', sans-serif;
+
+.balance {
+	background: url("../img/mirrored_squares.png");
 }
 
-tbody {
+h4 {
 	text-align: center;
 }
 
-.balance {
-	color: #234588;
-	font-size: 1.5em;
+h1 {
+	font-family: 'Chivo', sans-serif;
 }
+
+
+
+
+
+
+

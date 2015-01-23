@@ -54,10 +54,12 @@ h1 {
 
 .registration {
 	background: url("../img/triangles.png");
+	font-family: 'Quantico', sans-serif;
 }
 
-
-
+.canvas {
+	font-family: 'Quantico', sans-serif;
+}
 
 
 

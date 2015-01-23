@@ -46,10 +46,12 @@ a:active {
 
 h4 {
 	text-align: center;
+	font-family: 'Chivo', sans-serif;
 }
 
 h1 {
 	font-family: 'Chivo', sans-serif;
+	color: #722;
 }
 
 .registration {
